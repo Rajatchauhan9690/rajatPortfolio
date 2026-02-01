@@ -5,14 +5,16 @@ const experiences = [
   {
     role: "Frontend Developer",
     company: "Ecrivian Education Path LLP",
-    duration: "July 2024 - Nov,2025",
+    duration: "July 2024 - Nov 2025",
     desc: "Developed responsive and interactive UI using React and Tailwind CSS.",
+    skills: ["React",  "JavaScript"."Tailwind CSS","Next.js"],
   },
   {
     role: "MERN Stack Developer Intern",
     company: "The Zonzo",
     duration: "Jan 2024 - June 2024",
     desc: "Built RESTful APIs with Node.js and integrated them with React frontend.",
+    skills: ["Node.js", "Express", "MongoDB", "React"],
   },
 ];
 
@@ -36,7 +38,19 @@ const Experience = () => {
             <p className="text-gray-400 mb-2">
               {exp.company} | {exp.duration}
             </p>
-            <p>{exp.desc}</p>
+            <p className="mb-4">{exp.desc}</p>
+
+            {/* Skills / badges */}
+            <div className="flex flex-wrap gap-2">
+              {exp.skills.map((skill) => (
+                <span
+                  key={skill}
+                  className="bg-gray-800 text-green-400 px-3 py-1 rounded-full text-sm font-medium"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
           </motion.div>
         ))}
       </div>

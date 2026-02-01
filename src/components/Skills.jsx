@@ -7,6 +7,9 @@ import {
   FaJsSquare,
   FaGitAlt,
   FaHtml5,
+  FaDatabase,
+  FaServer,
+  FaCogs,
 } from "react-icons/fa";
 import {
   SiTypescript,
@@ -14,7 +17,10 @@ import {
   SiRedux,
   SiPostman,
   SiMongodb,
+  SiTailwindcss,
 } from "react-icons/si";
+import { MdApi } from "react-icons/md"; // RESTful API
+import { MdWidgets } from "react-icons/md"; // Material UI / Shadcn UI placeholder
 
 const skills = [
   {
@@ -27,8 +33,12 @@ const skills = [
   { name: "TypeScript", icon: <SiTypescript className="text-blue-600" /> },
   { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
   { name: "CSS3", icon: <FaCss3Alt className="text-blue-500" /> },
+  { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" /> },
+  { name: "Material UI", icon: <MdWidgets className="text-blue-700" /> },
+  { name: "Shadcn UI", icon: <MdWidgets className="text-indigo-500" /> },
   { name: "Node.js", icon: <FaNodeJs className="text-green-400" /> },
-  { name: "Express.js", icon: <FaNodeJs className="text-green-600" /> },
+  { name: "Express.js", icon: <FaServer className="text-green-600" /> },
+  { name: "RESTful API", icon: <MdApi className="text-red-500" /> },
   { name: "Postman", icon: <SiPostman className="text-orange-400" /> },
   { name: "Git & GitHub", icon: <FaGitAlt className="text-red-400" /> },
   { name: "MongoDB", icon: <SiMongodb className="text-green-600" /> },

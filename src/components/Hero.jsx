@@ -40,7 +40,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="mt-4 text-lg md:text-xl text-gray-300"
         >
-          UI/Frontend Developer | React & Tailwind Enthusiast
+          MERN Stack Developer | React & Node Enthusiast
         </motion.p>
 
         <div className="mt-8 flex gap-4 flex-wrap justify-center">

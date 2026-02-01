@@ -24,7 +24,7 @@ const About = () => {
       >
         <h2 className="text-4xl font-bold text-green-500 mb-4">About Me</h2>
         <p className="text-gray-300 mb-4 leading-relaxed">
-          I'm Rajat Chauhan, a passionate Fullstack Developer specializing in
+          I'm Rajat Chauhan, a passionate MERN Stack Developer specializing in
           React, Node.js, and Tailwind CSS. I love building interactive and
           user-friendly web applications.
         </p>

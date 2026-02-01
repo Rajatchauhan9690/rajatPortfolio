@@ -21,7 +21,7 @@ const Navbar = () => {
           {links.map((link) => (
             <li
               key={link}
-              className="text-gray-300 hover:text-green-500 transition-colors"
+              className="text-gray-300 font-semibold hover:text-green-500 transition-colors"
             >
               <a href={`#${link.toLowerCase()}`}>{link}</a>
             </li>

@@ -60,3 +60,7 @@ body {
 .animate-fadeInRight {
   animation: fadeInRight 0.8s ease-out forwards;
 }
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  -webkit-text-fill-color: #e5e7eb;
+}

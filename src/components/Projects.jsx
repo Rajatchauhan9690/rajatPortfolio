@@ -7,8 +7,16 @@ const projects = [
     desc: "React + Tailwind + Framer Motion",
     link: "#",
   },
-  { name: "E-commerce App", desc: "Fullstack Node & React", link: "#" },
-  { name: "Chat App", desc: "Realtime chat using Socket.io", link: "#" },
+  {
+    name: "Job Portal",
+    desc: "Node + React + MongoDB + Express + TailwindCss",
+    link: "#",
+  },
+  {
+    name: "Images, Videos, Gifs Search",
+    desc: "React + Redux/Toolkit + TailwindCss",
+    link: "#",
+  },
 ];
 
 const Projects = () => {

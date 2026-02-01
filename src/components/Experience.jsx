@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 const experiences = [
   {
     role: "Frontend Developer",
-    company: "Tech Solutions",
-    duration: "Jan 2022 - Present",
+    company: "Ecrivian Education Path LLP",
+    duration: "July 2024 - Nov,2025",
     desc: "Developed responsive and interactive UI using React and Tailwind CSS.",
   },
   {
-    role: "Fullstack Developer Intern",
-    company: "Startup Hub",
-    duration: "Jun 2021 - Dec 2021",
+    role: "MERN Stack Developer Intern",
+    company: "The Zonzo",
+    duration: "Jan 2024 - June 2024",
     desc: "Built RESTful APIs with Node.js and integrated them with React frontend.",
   },
 ];

@@ -24,7 +24,7 @@ const Hero = () => {
         transition={{ duration: 0.8, delay: 0.3 }}
         className="mt-4 text-lg md:text-xl text-gray-300"
       >
-        Fullstack Developer | React & Node.js Enthusiast
+        MERN Stack Developer | React & Node.js Enthusiast
       </motion.p>
 
       {/* Buttons container */}

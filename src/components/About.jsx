@@ -13,13 +13,13 @@ const About = () => {
         className="rounded-full shadow-lg w-64 md:w-80 aspect-square object-cover"
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
-        viewport={{ once: true }}
+        viewport={{ once: false, amount: 0.3 }}
         transition={{ duration: 0.8 }}
       />
       <motion.div
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
-        viewport={{ once: true }}
+        viewport={{ once: false, amount: 0.3 }}
         transition={{ duration: 0.8 }}
       >
         <h2 className="text-4xl font-bold text-green-500 mb-4">About Me</h2>

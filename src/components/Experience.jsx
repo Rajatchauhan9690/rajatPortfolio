@@ -7,7 +7,7 @@ const experiences = [
     company: "Ecrivian Education Path LLP",
     duration: "July 2024 - Nov 2025",
     desc: "Developed responsive and interactive UI using React and Tailwind CSS.",
-    skills: ["React",  "JavaScript"."Tailwind CSS","Next.js"],
+    skills: ["React", "JavaScript", "Tailwind CSS", "Next.js"],
   },
   {
     role: "MERN Stack Developer Intern",

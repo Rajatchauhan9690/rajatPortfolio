@@ -12,7 +12,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className=" w-full bg-black shadow-md z-50">
+    <nav className="fixed w-full bg-black shadow-md z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center p-4">
         <h1 className="text-2xl font-bold text-green-500">Rajat Chauhan</h1>
 

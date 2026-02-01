@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="max-w-5xl mx-auto py-20 px-4 flex flex-col md:flex-row items-center gap-10"
+      className="max-w-5xl mx-auto py-10 px-4 flex flex-col md:flex-row items-center gap-10 overflow-x-hidden"
     >
       <motion.img
         src="/profile.png"

@@ -11,7 +11,7 @@ const projects = [
   {
     name: "BookStore",
     desc: "Node + React + MongoDB + Express + Tailwind CSS",
-    link: "https://bookstore-frontend-tawny.vercel.app",
+    link: "https://book-store-frontend-kappa-ten.vercel.app",
     type: "project",
   },
   {

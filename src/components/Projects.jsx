@@ -25,7 +25,13 @@ const projects = [
   {
     name: "Dashboard UI",
     desc: "React + Tailwind CSS (UI Design)",
-    link: "https://company-portel.vercel.app/",
+    link: "https://company-portel.vercel.app",
+    type: "ui",
+  },
+  {
+    name: "Mern CRUD Operation ",
+    desc: "React + Tailwind CSS ",
+    link: "https://crud-operation-blond.vercel.app",
     type: "ui",
   },
 ];

@@ -20,18 +20,17 @@ const projects = [
     link: "https://naukri-portal-plum.vercel.app",
     type: "project",
   },
-
+  {
+    name: "Mern CRUD Operation ",
+    desc: "React + Tailwind CSS ",
+    link: "https://crud-operation-blond.vercel.app",
+    type: "ui",
+  },
   // UI Projects 👇
   {
     name: "Dashboard UI",
     desc: "React + Tailwind CSS (UI Design)",
     link: "https://company-portel.vercel.app",
-    type: "ui",
-  },
-  {
-    name: "Mern CRUD Operation ",
-    desc: "React + Tailwind CSS ",
-    link: "https://crud-operation-blond.vercel.app",
     type: "ui",
   },
 ];

@@ -24,7 +24,7 @@ const projects = [
     name: "Mern CRUD Operation ",
     desc: "React + Tailwind CSS ",
     link: "https://crud-operation-blond.vercel.app",
-    type: "ui",
+    type: "project",
   },
   // UI Projects 👇
   {
